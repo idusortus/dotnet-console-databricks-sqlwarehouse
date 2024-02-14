@@ -1,0 +1,6 @@
+{
+  "host": "https://adb-3088888491264717.17.azuredatabricks.net/",
+  "authType": "databricks-cli",
+  "databricksPath": "c:\\Users\\iduso\\.vscode\\extensions\\databricks.databricks-1.2.7-win32-x64\\bin\\databricks",
+  "workspacePath": "/Users/sam@future-stateconsulting.com/.ide/console-to-bricks-sqlWarehouse-82e177b1"
+}
