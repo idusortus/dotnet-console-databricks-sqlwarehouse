@@ -36,4 +36,4 @@ using (OdbcConnection connection = new OdbcConnection(bricksConnectionString))
   - Databricks ODBC Driver
 
 
-### And, no, that PAT is no longer valid 🤠
+### And, no, that PAT is not valid 🤠
