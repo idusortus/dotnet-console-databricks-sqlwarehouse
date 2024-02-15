@@ -29,6 +29,15 @@ using (OdbcConnection connection = new OdbcConnection(bricksConnectionString))
   - See [this post](https://stackoverflow.com/questions/75586420/connecting-to-azure-databricks-from-asp-net-using-odbc-driver) or [this one](https://stackoverflow.com/questions/77477103/ow-to-properly-connect-to-azure-databricks-warehouse-from-c-sharp-net-using-jdb) for additional details
   - For an Azure - Databricks - SQL Warehouse setup, the 'HTTP path', server name, port, and other info can be found from within the Databricks workspace > SQL Warehouses > Select Warehouse > Connection Details
 
+![image](https://github.com/idusortus/dotnet-console-databricks-sqlwarehouse/assets/1066200/39594aff-fe92-4e7c-bb13-ee8ebeb96edf)
+1. From Azure Portal - URL for Azure Databricks Service
+2. From Databricks > SQL Warehouse | Connection details
+3. Set to Username and Password
+4. the User Name is 'token'
+5. Password is your Databricks Personal Access Token (PAT)
+6. Set Thrift Transport to HTTP
+7. (Not Shown) - Click [HTTP Options] - HTTP Properties Pop-up appears - add HTTP Path from Databricks > SQL Warehouse | Connection details
+
 ## VSC Extensions
 > These aren't necessary to run the code, but they are helpful for development
 - Databricks
